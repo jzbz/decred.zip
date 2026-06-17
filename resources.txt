@@ -31,11 +31,21 @@ getdecred.now | A directory of exchanges, instant swaps, and fiat gateways for b
 dcr.pw | Spin up your own Decred full node with a single install command or a Docker Compose setup.
 
 
+## Apps & Wallets
+
+bisonwallet.org | Bison Wallet — a self-custodial Decred wallet with built-in DCRDEX trading, coin mixing, staking, and multi-coin support.
+dex.decred.org | DCRDEX — a non-custodial, peer-to-peer exchange that settles trades via atomic swaps with no trading fees or KYC.
+bisonrelay.org | Bison Relay — peer-to-peer, end-to-end encrypted communication and social media with no censorship, surveillance, or ads.
+
+
 ## Explorers & Network Data
 
 dcrdata.org | Decred's original block explorer and on-chain data API — browse blocks, transactions, tickets, and the treasury.
+bisonexplorer.com | Bison Explorer — an original multi-blockchain explorer, built in Go, covering Decred and other chains.
 decred.supply | A network dashboard tracking Decred's coin supply, staking, and other on-chain metrics.
+decredstats.com | Decred Liquid Supply Chart — visualizes circulating, staked, and treasury balances to track DCR's freely available liquid supply.
 map.dcr.pw | Decred Mapper continually crawls the network and maps every reachable public node by location and host.
+is.decred.online | A status overview showing whether Decred's network services and infrastructure are up and running.
 pulse.decredcommunity.org | Decred Pulse — your full Decred node, wallet, and ecosystem in one self-hosted dashboard.
 
 
