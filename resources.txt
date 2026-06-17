@@ -1,0 +1,50 @@
+# decred.zip — resource list
+# =================================================================
+# This file is the single source of truth for the site.
+# Edit it, then run:  python3 build.py   (regenerates index.html)
+#
+# FORMAT
+#   • Lines starting with "#" are comments and are ignored.
+#   • Blank lines are ignored.
+#   • Start a new section with a line beginning "## ", e.g. "## Core".
+#   • Each resource is ONE line, fields separated by "|":
+#
+#       domain | description
+#         -> link text and target are both the domain (https:// is added)
+#
+#       name | https://full-url | description
+#         -> use this 3-field form when the link target differs from
+#            the displayed name, or when you need a non-https/subpath URL
+#
+#   Surrounding whitespace around each field is trimmed, so you can
+#   align things with spaces if you like. Order within a section is
+#   the order shown on the page.
+# =================================================================
+
+
+## Start Here
+
+decred.org | Decred is an autonomous digital currency with a hybrid PoW/PoS consensus system where stakeholders make the rules. The project's official home.
+decred.wtf | A newcomer-friendly explainer — "WTF is Decred?" — covering what Decred is, its key features, and where to go next.
+docs.decred.org | Official Decred documentation — guides for wallets, staking, mining, governance, and the protocol itself.
+getdecred.now | A directory of exchanges, instant swaps, and fiat gateways for buying, trading, and swapping DCR.
+dcr.pw | Spin up your own Decred full node with a single install command or a Docker Compose setup.
+
+
+## Explorers & Network Data
+
+dcrdata.org | Decred's original block explorer and on-chain data API — browse blocks, transactions, tickets, and the treasury.
+decred.supply | A network dashboard tracking Decred's coin supply, staking, and other on-chain metrics.
+map.dcr.pw | Decred Mapper continually crawls the network and maps every reachable public node by location and host.
+pulse.decredcommunity.org | Decred Pulse — your full Decred node, wallet, and ecosystem in one self-hosted dashboard.
+
+
+## Governance
+
+proposals.decred.org | Politeia, Decred's proposal system, where stakeholders propose, discuss, and fund work from the project treasury.
+voting.decred.org | A live overview of Decred's on-chain consensus rule-change voting and upgrade activation.
+
+
+## Tools
+
+timestamply.org | Anchor a file's hash to the Decred blockchain to create tamper-proof evidence that it existed at a point in time.
