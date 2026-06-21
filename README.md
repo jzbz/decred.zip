@@ -59,6 +59,21 @@ python3 -m http.server 8765
 | `styles.css`    | Hand-written CSS (dark theme, blue→teal accent).   |
 | `dcr.svg`       | Decred logo, used as the SVG favicon and header.   |
 | `favicon.ico`   | Fallback favicon.                                  |
+| `og.svg`        | Source for the social-share card.                  |
+| `og.png`        | Generated 1200×630 preview image (`og:image`).     |
 
 The site includes a client-side filter box, but the page works fully without
 JavaScript — every resource is in the static HTML.
+
+## Social preview (Open Graph)
+
+`index.html` references `https://decred.zip/og.png` for link previews on
+social media. To change the card, edit `og.svg` and regenerate the PNG:
+
+```bash
+rsvg-convert -w 1200 -h 630 og.svg -o og.png
+```
+
+After deploying a new image, social platforms cache aggressively — re-scrape via
+[Facebook's debugger](https://developers.facebook.com/tools/debug/) or
+[X's validator](https://cards-dev.twitter.com/validator) to refresh.

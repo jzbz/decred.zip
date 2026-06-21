@@ -18,6 +18,8 @@ OUT = ROOT / "index.html"
 
 SITE_NAME = "decred.zip"
 TAGLINE = "An archive of Decred resources"
+SITE_URL = "https://decred.zip"
+OG_IMAGE = SITE_URL + "/og.png"
 
 
 def parse(text):
@@ -109,9 +111,23 @@ def render(sections):
     <meta name="theme-color" content="#0a0e1a" />
     <title>{SITE_NAME} · {TAGLINE}</title>
     <meta name="description" content="{esc(TAGLINE)}. A curated index of Decred ecosystem websites, explorers, tools, and governance." />
+    <link rel="canonical" href="{SITE_URL}/" />
+    <meta property="og:site_name" content="{SITE_NAME}" />
     <meta property="og:title" content="{SITE_NAME}" />
-    <meta property="og:description" content="{esc(TAGLINE)}" />
+    <meta property="og:description" content="{esc(TAGLINE)}. A curated index of Decred ecosystem websites, explorers, tools, and governance." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="{SITE_URL}/" />
+    <meta property="og:image" content="{OG_IMAGE}" />
+    <meta property="og:image:secure_url" content="{OG_IMAGE}" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="{SITE_NAME} — {esc(TAGLINE)}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{SITE_NAME}" />
+    <meta name="twitter:description" content="{esc(TAGLINE)}" />
+    <meta name="twitter:image" content="{OG_IMAGE}" />
+    <meta name="twitter:image:alt" content="{SITE_NAME} — {esc(TAGLINE)}" />
     <link rel="icon" type="image/svg+xml" href="dcr.svg" />
     <link rel="alternate icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
