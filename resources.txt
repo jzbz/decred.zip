@@ -42,6 +42,7 @@ bisonrelay.org | Bison Relay — peer-to-peer, end-to-end encrypted communicatio
 
 dcrdata.org | Decred's original block explorer and on-chain data API — browse blocks, transactions, tickets, and the treasury.
 bisonexplorer.com | Bison Explorer — an original multi-blockchain explorer, built in Go, covering Decred and other chains.
+data.dcr.pw | A community-run Decred block explorer (dcrdata) for browsing blocks, transactions, tickets, and treasury activity.
 decred.supply | A network dashboard tracking Decred's coin supply, staking, and other on-chain metrics.
 decredstats.com | Decred Liquid Supply Chart — visualizes circulating, staked, and treasury balances to track DCR's freely available liquid supply.
 map.dcr.pw | Decred Mapper continually crawls the network and maps every reachable public node by location and host.
