@@ -59,3 +59,4 @@ voting.decred.org | A live overview of Decred's on-chain consensus rule-change v
 ## Tools
 
 timestamply.org | Anchor a file's hash to the Decred blockchain to create tamper-proof evidence that it existed at a point in time.
+paper.dcr.pw | Generate a Decred paper wallet entirely in your browser for offline cold storage — keys are created locally and never leave your device.
